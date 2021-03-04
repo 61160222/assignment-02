@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 let books = []
 
-const url = 'mongodb+srv://superadmin:bel123456@cluster0.12d6p.mongodb.net/buflix?retryWrites=true&w=majority'
+const url = 'mongodb+srv://superadmin:poison143@cluster0.ajr0r.mongodb.net/sample_data?retryWrites=true&w=majority'
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true })
 let db, booksCollection
 
